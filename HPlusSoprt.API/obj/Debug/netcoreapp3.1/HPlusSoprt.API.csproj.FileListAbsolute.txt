@@ -22,3 +22,14 @@ C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Sys
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.csproj.CopyComplete
+C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\HPlusSoprt.API.deps.json
+C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\HPlusSoprt.API.runtimeconfig.json
+C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\HPlusSoprt.API.runtimeconfig.dev.json
+C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\HPlusSoprt.API.dll
+C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\HPlusSoprt.API.pdb
+C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.csproj.CoreCompileInputs.cache
+C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.dll
+C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.pdb
+C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.genruntimeconfig.cache
