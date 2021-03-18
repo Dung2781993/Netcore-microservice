@@ -31,9 +31,15 @@ namespace HPlusSoprt.API.Controllers
                     p => p.Price >= queryParameters.MinPrice.Value && p.Price <= queryParameters.MaxPrice.Value
                 );
             }
+            
             if (!string.IsNullOrEmpty(queryParameters.Sku))
             {
                 products = products.Where(p => p.Sku == queryParameters.Sku);
+            }
+
+            if (!String.IsNullOrEmpty(queryParameters.Name))
+            {
+                products = products.Where(p => p.Name.ToLower().Contains(queryParameters.Name.ToLower());
             }
 
             products = products.Skip(queryParameters.Size * (queryParameters.Page - 1)).Take(queryParameters.Size);
