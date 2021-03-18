@@ -23,5 +23,19 @@ namespace HPlusSoprt.API.Classes
                 size = Math.Min(maxSize, value);
             }
         }
+
+        public String SortBy { get; set; } = "Id";
+        public String _sortOrder = "asc";
+        public String SortOrder
+        {
+            get
+            {
+                return _sortOrder;
+            }
+            set
+            {
+                if (value == "asc" || value == "desc") _sortOrder = value;
+            }
+        }
     }
 }

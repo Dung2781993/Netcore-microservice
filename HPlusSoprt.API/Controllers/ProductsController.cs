@@ -42,6 +42,14 @@ namespace HPlusSoprt.API.Controllers
                 products = products.Where(p => p.Name.ToLower().Contains(queryParameters.Name.ToLower());
             }
 
+            if (!String.IsNullOrEmpty(queryParameters.SortBy))
+            {
+                if(typeof(Product).GetProperty(queryParameters.SortBy) != null)
+                {
+                    products = products.OrderByCustom(queryParameters.SortBy, queryParameters.SortBy);
+                }
+            }
+
             products = products.Skip(queryParameters.Size * (queryParameters.Page - 1)).Take(queryParameters.Size);
 
             return Ok(await products.ToArrayAsync());
