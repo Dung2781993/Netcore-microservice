@@ -25,10 +25,11 @@ namespace HPlusSoprt.API.Controllers
             return Ok(_context.Products.ToArray());
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public IActionResult GetProduct(int id)
         {
             var product = _context.Products.Find(id);
+            if (product == null) return NotFound();
             return Ok(product);
         }
     }
