@@ -555,19 +555,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lndu\\.nuget\\packages\\": {}
+    "C:\\Users\\Jason Le\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\src\\Training\\microservices\\HPlusSoprt.API\\HPlusSoprt.API.csproj",
+      "projectUniqueName": "D:\\Working\\src\\Lynda_Miroservice_Netcore\\HPlusSoprt\\HPlusSoprt.API\\HPlusSoprt.API.csproj",
       "projectName": "HPlusSoprt.API",
-      "projectPath": "C:\\Project\\src\\Training\\microservices\\HPlusSoprt.API\\HPlusSoprt.API.csproj",
-      "packagesPath": "C:\\Users\\Lndu\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\src\\Training\\microservices\\HPlusSoprt.API\\obj\\",
+      "projectPath": "D:\\Working\\src\\Lynda_Miroservice_Netcore\\HPlusSoprt\\HPlusSoprt.API\\HPlusSoprt.API.csproj",
+      "packagesPath": "C:\\Users\\Jason Le\\.nuget\\packages\\",
+      "outputPath": "D:\\Working\\src\\Lynda_Miroservice_Netcore\\HPlusSoprt\\HPlusSoprt.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lndu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jason Le\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -619,7 +623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
