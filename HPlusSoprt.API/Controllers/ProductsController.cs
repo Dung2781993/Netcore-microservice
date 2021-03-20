@@ -25,13 +25,19 @@ namespace HPlusSoprt.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllProducts([FromQuery] ProductQueryParameters queryParameters) {
             IQueryable<Product> products = _context.Products;
-            if(queryParameters.MaxPrice != null && queryParameters.MinPrice != null)
+            if (queryParameters.MaxPrice != null && queryParameters.MinPrice != null)
             {
                 products = products.Where(
                     p => p.Price >= queryParameters.MinPrice.Value && p.Price <= queryParameters.MaxPrice.Value
                 );
             }
-            
+
+            if (!string.IsNullOrEmpty(queryParameters.SearchTerm))
+            {
+                products = products.Where(p => p.Sku.Contains(queryParameters.SearchTerm.ToLower()) ||
+                        p.Name.Contains(queryParameters.SearchTerm.ToLower()));
+            }
+
             if (!string.IsNullOrEmpty(queryParameters.Sku))
             {
                 products = products.Where(p => p.Sku == queryParameters.Sku);
@@ -39,7 +45,7 @@ namespace HPlusSoprt.API.Controllers
 
             if (!String.IsNullOrEmpty(queryParameters.Name))
             {
-                products = products.Where(p => p.Name.ToLower().Contains(queryParameters.Name.ToLower());
+                products = products.Where(p => p.Name.ToLower().Contains(queryParameters.Name.ToLower()));
             }
 
             if (!String.IsNullOrEmpty(queryParameters.SortBy))
