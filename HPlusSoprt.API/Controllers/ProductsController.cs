@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using HPlusSoprt.API.Classes;
 using HPlusSoprt.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace HPlusSoprt.API.Controllers
     [ApiVersion("1.0")]
     //[Route("v{v:apiVersion}/products")]
     [Route("products")]
+    [Authorize]
     [ApiController]
     public class ProductsV1_0Controller : ControllerBase
     {
