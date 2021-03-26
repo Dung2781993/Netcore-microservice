@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HPlusSoprt.API", "HPlusSoprt.API\HPlusSoprt.API.csproj", "{2126DBDA-3844-415A-BA6E-0FB9D43D0B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSoprt.Web", "HPlusSoprt.Web\HPlusSoprt.Web.csproj", "{003AE714-BC9D-4CCA-8894-2C8667CA55BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HPlusSoprt.Web", "HPlusSoprt.Web\HPlusSoprt.Web.csproj", "{003AE714-BC9D-4CCA-8894-2C8667CA55BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPlusSoprt.IdentityServer", "HPlusSoprt.IdentityServer\HPlusSoprt.IdentityServer.csproj", "{06E2220F-10D7-4974-97F0-FCF741422822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{003AE714-BC9D-4CCA-8894-2C8667CA55BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003AE714-BC9D-4CCA-8894-2C8667CA55BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{003AE714-BC9D-4CCA-8894-2C8667CA55BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E2220F-10D7-4974-97F0-FCF741422822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E2220F-10D7-4974-97F0-FCF741422822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E2220F-10D7-4974-97F0-FCF741422822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E2220F-10D7-4974-97F0-FCF741422822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
