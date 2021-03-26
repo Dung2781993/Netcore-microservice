@@ -49,6 +49,16 @@ namespace HPlusSoprt.API
 
                 });
 
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("https://localhost:44302")
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
+
             services.AddApiVersioning(options =>
             {
                 options.ReportApiVersions = true;
@@ -75,6 +85,7 @@ namespace HPlusSoprt.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors();
             app.UseAuthentication();
             app.UseAuthorization();
 
