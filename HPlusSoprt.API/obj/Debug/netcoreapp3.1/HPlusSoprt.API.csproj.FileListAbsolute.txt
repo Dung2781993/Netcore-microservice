@@ -1,8 +1,6 @@
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\HPlusSoprt.API.exe
-C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.csprojAssemblyReference.cache
 C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.AssemblyInfoInputs.cache
 C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.AssemblyInfo.cs
 C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\HPlusSoprt.API.RazorTargetAssemblyInfo.cache
@@ -41,3 +39,4 @@ C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Mic
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Project\src\Training\microservices\HPlusSoprt.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Project\src\Training\microservices\HPlusSoprt.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\HPlusSoprt.API.styles.css

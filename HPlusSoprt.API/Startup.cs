@@ -32,6 +32,23 @@ namespace HPlusSoprt.API
                     // options.SuppressModelStateInvalidFilter = true;
                 }
             );
+
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
+                {
+                    options.Authority = "http://localhost:63998";
+                    options.RequireHttpsMetadata = false;
+
+                    options.Audience = "hps-api";
+
+                    options.TokenValidationParameters =
+                    new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                    {
+                        ValidateAudience = false
+                    };
+
+                });
+
             services.AddApiVersioning(options =>
             {
                 options.ReportApiVersions = true;
@@ -58,7 +75,7 @@ namespace HPlusSoprt.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
