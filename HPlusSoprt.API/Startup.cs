@@ -36,7 +36,7 @@ namespace HPlusSoprt.API
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "http://localhost:63998";
+                    options.Authority = "http://localhost:21417";
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "hps-api";
